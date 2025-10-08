@@ -20,6 +20,8 @@ public class cyclicSort {
             if(num[i] != num[corIdx]) swap(num,i,corIdx);
             else i++;
         }        
+        // this is for ,if repeated elements are avialable, then using 2-pointer approach;
+  
         System.out.println("\nAfter sorting , num : "+Arrays.toString(num));
     }
 
