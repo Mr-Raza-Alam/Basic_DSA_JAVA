@@ -9,6 +9,7 @@ public class countRotation{
     public static int countNoOfRotation(int[]arr){      
         return getPivot(arr)+1;
     }
+    
     public static int getPivot(int[]arr){
         int s = 0,e = arr.length-1,mid;
 
